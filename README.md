@@ -41,13 +41,9 @@ tcp-congestion-simulator/
 
 ## Upload to GitHub
 
-Create an empty GitHub repository named `tcp-insight-lab`, then run the following commands from this project folder. Replace `YOUR_USERNAME` with your GitHub username.
+To push this project to the `tcp-insight` repository, configure the remote once, then push from this project folder:
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit: TCP Insight Lab"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/tcp-insight-lab.git
+git remote set-url origin https://github.com/YOUR_USERNAME/tcp-insight.git
 git push -u origin main
 ```
